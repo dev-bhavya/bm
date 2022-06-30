@@ -139,6 +139,12 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   }
+  .home__img{
+    display: none;
+  }
+  .home {
+    height: calc(50vh - 3rem) !important;
+  }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
@@ -198,10 +204,6 @@ img{
 }
 .home__title-color{
   color: var(--first-color);
-}
-.home__social{
-  display: flex;
-  flex-direction: column;
 }
 .home__social-icon{
   width: max-content;
